@@ -1,6 +1,20 @@
+
+#construct_knowledge{
+  margin-top: -25px;
+  padding-left: 14px;
+  font-family: fantasy;
+  font-weight:200px;
+  font-size: 25px;
+
+}
+#wrapper{
+  margin-top: -25px;
+  position: fixed;
+}
 #logo{
+
   float: left;
-  padding-top: 6px;
+  padding-top: 22px;
   padding-left: 15px;
 }
 #logo-guide{
@@ -9,19 +23,37 @@
   background-color: #A9A9A9;
 
 }
+#about_the_product{
+  padding-top: 100px;
+  padding-bottom: 30px;
+  width: 800px;
+  height: 450px;
+  background-color: #ffffff;
+
+}
+#introduction_the_product{
+  color:white;
+}
+
+#product_methodology{
+  padding-top: 10px;
+  width: 800px;
+  height: 800px;
+  background-color: #A9A9A9;
+}
 .nav-guide li{
   display: inline-block;
   float:right;
   position: relative;
-  padding-top: 16px;
+  padding-top: 18px;
   padding-right: 20px;
 }
 .nav-guide a{
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: #ffffff;
-  padding: 5px 5px;
-  font-family: Monospace;
+  padding: 8px 8px;
+  font-family: Sans-serif;
   font-weight: bold;
 }
 .nav-guide li:hover > a,
