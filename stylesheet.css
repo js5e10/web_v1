@@ -1,0 +1,35 @@
+#logo{
+  float: left;
+  padding-top: 6px;
+  padding-left: 15px;
+}
+#logo-guide{
+  width: 800px;
+  height: 60px;
+  background-color: #A9A9A9;
+
+}
+.nav-guide li{
+  display: inline-block;
+  float:right;
+  position: relative;
+  padding-top: 16px;
+  padding-right: 20px;
+}
+.nav-guide a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 5px 5px;
+  font-family: Monospace;
+  font-weight: bold;
+}
+.nav-guide li:hover > a,
+
+.nav-guide a:focus {
+
+    border-radius: 5px;
+    background-color: #ffffff;
+    color:#A9A9A9;
+
+}
