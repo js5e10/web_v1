@@ -1,4 +1,6 @@
-
+*{
+  box-sizing:border-box;
+}
 #construct_knowledge{
   margin-top: -25px;
   padding-left: 14px;
@@ -7,46 +9,72 @@
   font-size: 25px;
 
 }
-#wrapper{
-  margin-top: -25px;
+#header{
+  height: 80px;
+  background-color: #A9A9A9;
   position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+#wrapper{
+  margin-top: -15px;
+
 }
 #logo{
 
   float: left;
-  padding-top: 22px;
+  padding-top: 20px;
   padding-left: 15px;
 }
 #logo-guide{
-  width: 800px;
+
   height: 60px;
   background-color: #A9A9A9;
+
 
 }
 #about_the_product{
   padding-top: 100px;
   padding-bottom: 30px;
-  width: 800px;
-  height: 450px;
+
+  height: auto;
   background-color: #ffffff;
+
 
 }
 #introduction_the_product{
-  color:white;
+  padding-top: 80px;
+  color:black;
+  height: 100px;
+
+
+}
+.introduction{
+  background-color: #DCDCDC;
+  height: 350px;
+
+
 }
 
 #product_methodology{
-  padding-top: 10px;
-  width: 800px;
-  height: 800px;
-  background-color: #A9A9A9;
+  padding-top: 20px;
+  padding-left: 170px;
+  height: 300px;
+  background-color: #F8F8FF;
 }
+.our_company{
+  height:auto;
+  background-color: #DCDCDC;
+}
+
 .nav-guide li{
   display: inline-block;
   float:right;
   position: relative;
   padding-top: 18px;
   padding-right: 20px;
+
 }
 .nav-guide a{
   text-decoration: none;
@@ -63,5 +91,171 @@
     border-radius: 5px;
     background-color: #ffffff;
     color:#A9A9A9;
+
+}
+.download{
+color: black;
+text-decoration: none;
+font-size: 25px;
+font-family:sans-serif;
+font-weight: bold;
+padding-left: 15px;
+}
+.download:hover{
+  color: white;
+}
+.download_window{
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-left: 12px;
+  width: 185px;
+  height: 42px;
+  background-color: #ff8000;
+  position: relative;
+  margin-right: 10px;
+  margin-top: 120px;
+  float: right;
+  z-index: 0;
+}
+
+.vision{
+  margin-top: 30px;
+
+  padding-top: 60px;
+  text-align:center;
+  background-color:#DCDCDC;
+  height: 200px;
+  display: inline-block;
+
+
+}
+.vision_1{
+
+  margin-top: 30px;
+  padding-top: 60px;
+  text-align:center;
+  background-color:#4d4d4d;
+  height: 200px;
+  display: inline-block;
+
+
+}
+
+
+.blank{
+  padding-top: 20px;
+  text-align:center;
+  height: 20px;
+  background-color: white;
+  display: inline-block;
+}
+.blank_1{
+  padding-top: 20px;
+  text-align:center;
+  height: 20px;
+  background-color: #4d4d4d;
+  display: inline-block;
+}
+.strech_methodology{
+
+  padding-top: 10px;
+  padding-left: 3px;
+  height: auto;
+  background-color: #ffffff;
+  padding-bottom: 250px;
+}
+.strech_methodology_footer{
+  margin-bottom:  80px;
+
+
+  background-color: #4d4d4d;
+}
+.footer{
+  height: auto;
+  background-color: #4d4d4d;
+}
+.social{
+  margin-left: -30px;
+}
+.social li{
+
+  padding-left: 10px;
+}
+.social i{
+  color:#F07818;
+  font-size:200%;
+
+}
+.social i:hover {
+color:#DCDCDC
+}
+.text{
+  padding-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color:#DCDCDC;
+}
+
+ul.social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.google-maps{
+  position:relative;
+  overflow: hidden;
+}
+
+
+.copy_right{
+  color: white;
+}
+.clearfix{
+  overflow: auto;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+    .col-m-13 {width: 27%;}
+    .col-m-14 {width: 5%;}
+
+
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .col-13 {width: 27%;}
+    .col-14 {width: 5%;}
 
 }
