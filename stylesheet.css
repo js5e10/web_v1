@@ -12,7 +12,7 @@
 
 #header {
   height: 80px;
-  background-color: #5f5f5f;
+  background-color:#262626;
   position: fixed;
   right: 0;
   left: 0;
@@ -32,7 +32,7 @@
 
 #logo-guide {
   height: 60px;
-  background-color: #5f5f5f;
+  background-color:  #262626;
 }
 
 
@@ -59,63 +59,80 @@
 }
 
 #introduction {
-
+  padding-bottom: 50px;
   background-color: #e7e6e6;
-  /*height: 600px;
-  background-image: url("video/demo.gif");*/
-
-  background-repeat: no-repeat;
-  align-items: center;
-  background-position: center;
+  height: auto;
 
 }
 
 #introduction p{
   margin-left: 100px;
 }
-p.text_ai{
+
+/*.text_ai{
+  position: relative;
   text-align: right;
   padding-right: 50px;
   font-family:sans-serif;
   font-size: 30px;
   font-weight: bold;
   color: #F07818;
+    top:-550px;
+}*/
 
-}
-
-.demo{
-margin: auto;
-width:50%;
-height:auto;
-padding-bottom: 30px;
-}
 .demo_setting{
-  border-radius: 15px;
+
+max-width: 100%;
+height:auto;
+border-radius: 15px;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+
 }
+
+.ai{
+  position: relative;
+  max-width: 100%;
+  padding-bottom: 30px;
+  margin: auto;
+
+
+
+}
+
+#demo{
+
+}
+
 
 #our_product{
-
+  /*margin: auto;
   background-image:  url("img/ai_v2.jpg");
-   background-repeat: no-repeat;
+   background-repeat: no-repeat;*/
   background-color: white;
-  height: 800px;
+  height:auto;
   background-position: left;
 }
 #section_3 {
   margin-top: -49px;
   background-color: #DCDCDC;
-  height: 550px;
+  height: 680px;
 
-  background-position: center;
-  background-repeat: no-repeat;
+
 
 }
+
+
 #product_methodology {
   padding-top: 20px;
   padding-left: 170px;
   height: auto;
   background-color: #F8F8FF;
 }
+
 .jumbotron{
   margin: auto;
   width:100%;
@@ -138,7 +155,11 @@ padding-bottom: 30px;
 
 }
 
-
+.item_1{
+  text-decoration-color: black;
+  font-family: fantasy;
+  font-size:20px;
+}
 
 .nav-guide a {
   text-decoration: none;
@@ -148,12 +169,19 @@ padding-bottom: 30px;
 
 }
 
+ul.nav-guide{
+  list-style-type: none;
+}
 
-.nav-guide li:hover>a, .nav-guide a:focus {
+.nav-guide{
+
+}
+
+/*.nav-guide li:hover>a, .nav-guide a:focus {
   border-radius: 5px;
 
-  color: #A9A9A9;
-}
+  color: red;
+}*/
 
 
 
@@ -165,6 +193,7 @@ padding-bottom: 30px;
   font-family: fantasy;
 
   padding-left: 15px;
+  z-index: 10;
 
 
 }
@@ -187,7 +216,7 @@ padding-bottom: 30px;
   background-color: #303030;
   position: relative;
   margin-right: 10px;
-  margin-top: 650px;
+  margin-top: 150px;
   float: right;
   z-index: 0;
 }
@@ -398,9 +427,12 @@ ul.Learn{
   overflow: auto;
 }
 
+
 #logo-guide a:hover, #logo-guide .current-item a {
   text-decoration: none;
-  color: #66a992;
+/*  color: #66a992;*/
+  color: white;
+
 }
 
 
@@ -500,6 +532,9 @@ ul.Learn{
   .col-14 {
     width: 5%;
   }
+  ul.nav-guide{
+    list-style-type: none;
+  }
 
   #logo-guide li {
     display: inline-block;
@@ -510,13 +545,13 @@ ul.Learn{
 
 
   }
-
+/* change menu text color */
   #logo-guide a {
     text-decoration: none;
     font-size: 10px;
-    color: #ffffff;
+    color: #999999;
     font-family: Sans-serif;
-
+    font-weight: bold;
     margin-top: 10px;
     padding: 22px;
   }
@@ -532,9 +567,10 @@ ul.Learn{
     display: none;
 
   }
+
   #logo-guide ul {
 
-    width: 150px;
+    width: 180px;
     position: absolute;
     top: 85%;
     right: 0px;
@@ -544,6 +580,9 @@ ul.Learn{
     background: #303030;
     height: 230px;
     decoration:none;
+
+    list-style-type: none;
+
 
   }
 
@@ -565,21 +604,25 @@ ul.Learn{
 
   #logo-guide a {
     text-decoration: none;
-    float: right;
-    font-size: 20px;
-    display: inline-block;
-    color: #ffffff;
+    font-size: 10px;
+    color: #999999;
     font-family: Sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 22px;
+
+
   }
 
   #logo-guide li{
     padding-top: 20px;
+
   }
  ul.nav-guide{
 
       list-style-type: none;
   }
-
+/*toggle buttom*/
   .toggle-nav {
     margin-top: 10px;
     padding: 20px;
