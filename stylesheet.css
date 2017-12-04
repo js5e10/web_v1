@@ -81,6 +81,7 @@
 
 .flow{
   background-color: white;
+  padding-top: 70px;
 }
 
 .flow_steps li{
@@ -89,14 +90,49 @@
 
 }
 
-.flow_text_1{
+.match{
+  padding-bottom: 50px;
 
-  font-size: 2.2vw;
-  font-weight: bold;
 }
+
+.match::after{
+  content: "";
+  clear:both;
+  display: block;
+
+}
+
+.flow_text_1{
+  text-align: left;
+  font-size: 2vw;
+
+
+}
+
+.flow_text_2{
+
+  text-align: left;
+  font-size: 2.2vw;
+
+}
+
+.flow_text_3{
+  padding-left: 100px;
+  text-align: left;
+  font-size: 2.2vw;
+
+
+}
+
 .subheader{
   text-align: center;
-  font-size: 30px;
+  font-size: 2.5vw;
+  background-color: #DCDCDC;
+  font-weight: bold;
+}
+.subheader_2{
+  text-align: center;
+  padding-left: 100px;
   background-color: #DCDCDC;
 }
 #introduction {
@@ -167,8 +203,9 @@ margin-right: auto;
 }
 #section_3 {
   margin-top: -49px;
+  /*background-color: #E8E6D7;*/
   background-color: #DCDCDC;
-  height: 680px;
+  height: auto;
 
 
 
@@ -232,7 +269,13 @@ ul.nav-guide{
   color: red;
 }*/
 
-
+.knowledge{
+  border-radius: 5px;
+  border-width: 2px;
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px#888;
+  box-shadow: 0 0 5px 5px #888
+}
 
 .download {
 
@@ -616,6 +659,14 @@ ul.Learn{
     padding: 22px;
   }
 
+  .knowledge{
+
+    margin: auto;
+    width: 80%;
+    margin-left: 75px;
+
+
+  }
 
 }
 
@@ -623,7 +674,11 @@ ul.Learn{
   [class*="col-"] {
     width: 100%;
   }
-
+  .flow_text_1{
+    text-align: center;
+    font-size: 2.2vw;
+    font-weight: bold;
+  }
   #logo-guide ul.nav-guide {
     display: none;
 
@@ -698,6 +753,13 @@ ul.Learn{
     transition: color linear 0.15s;
 
   }
+  .knowledge{
+    margin: auto;
+    width: 30%;
+    height: auto;
+    margin-left:350px;
+
+  }
 /*
   .toggle-nav:hover, .toggle-nav.nav-guide {
     text-decoration: none;
@@ -716,5 +778,9 @@ ul.Learn{
   }
   .p3{
     text-align: center;
+  }
+  .flow{
+    padding-bottom: 60px;
+    padding-top: 40px;
   }
 }
