@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 #construct_knowledge {
   margin-top: -25px;
   padding-left: 14px;
@@ -80,13 +81,29 @@
 
 .flow{
   background-color: white;
+}
+
+.flow_steps li{
+  list-style-type: none;
+  text-align: center;
 
 }
 
+.flow_text_1{
+
+  font-size: 2.2vw;
+  font-weight: bold;
+}
+.subheader{
+  text-align: center;
+  font-size: 30px;
+  background-color: #DCDCDC;
+}
 #introduction {
   padding-bottom: 50px;
   background-color: #e7e6e6;
   height: auto;
+  font-weight:900;
 
 }
 
@@ -119,9 +136,9 @@ margin-right: auto;
 }
 
 .ai{
-
+  padding-top: 100px;
   max-width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 27px;
   margin: auto;
 
 
@@ -131,7 +148,9 @@ margin-right: auto;
 #demo{
 
 }
-
+#our_product{
+  background-color: white;
+}
 
 #our_product::after{
   /*margin: auto;
@@ -144,6 +163,7 @@ margin-right: auto;
   content: "";
   clear: both;
   display: block;
+
 }
 #section_3 {
   margin-top: -49px;
@@ -518,10 +538,17 @@ ul.Learn{
 }
 
 */
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1122px) {
   /* For desktop: */
-  [class*="col-"]{
+  [class*="col-3"]{
     float: left;
+  }
+  [class*="col-9"]{
+    float: left;
+  }
+
+  .col-12{
+   float: left;
   }
   .col-1 {
     width: 24%;
@@ -592,10 +619,11 @@ ul.Learn{
 
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1122px) {
   [class*="col-"] {
     width: 100%;
   }
+
   #logo-guide ul.nav-guide {
     display: none;
 
