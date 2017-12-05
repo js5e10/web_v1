@@ -101,6 +101,17 @@
   display: block;
 
 }
+.match_1{
+  padding-bottom: 50px;
+
+}
+
+.match_1::after{
+  content: "";
+  clear:both;
+  display: block;
+
+}
 
 .flow_text_1{
   text-align: left;
@@ -115,19 +126,35 @@
   font-size: 2.2vw;
 
 }
+.flow_text_4{
+  text-align: center;
+}
 
 .flow_text_3{
   padding-left: 100px;
-  text-align: left;
+  text-align: center;
   font-size: 2.2vw;
 
 
 }
 
+
+.list_3 li{
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  list-style-type: none;
+  border:5px solid red;
+  border-radius:125px;
+
+
+}
+
+
 .subheader{
   text-align: center;
   font-size: 2.5vw;
-  background-color: #DCDCDC;
+
   font-weight: bold;
 }
 .subheader_2{
@@ -135,6 +162,26 @@
   padding-left: 100px;
   background-color: #DCDCDC;
 }
+.subheader_3{
+  text-align: center;
+  font-size: 1.5vw;
+  background-color:white;
+  font-weight: bold;
+}
+.subheader_4{
+  text-align: center;
+  padding-left: 25px;
+  background-color:white;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+
+.arrow_center{
+  text-align: center;
+  color: #CD853F;
+}
+
 #introduction {
   padding-bottom: 50px;
   background-color: #e7e6e6;
@@ -202,7 +249,7 @@ margin-right: auto;
 
 }
 #section_3 {
-  margin-top: -49px;
+
   /*background-color: #E8E6D7;*/
   background-color: #DCDCDC;
   height: auto;
@@ -211,6 +258,15 @@ margin-right: auto;
 
 }
 
+#section_4 {
+  margin-top: -49px;
+  /*background-color: #E8E6D7;*/
+  background-color:white;
+  height: auto;
+
+
+
+}
 
 #product_methodology {
   padding-top: 20px;
@@ -270,6 +326,26 @@ ul.nav-guide{
 }*/
 
 .knowledge{
+  border-radius: 5px;
+  border-width: 2px;
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px#888;
+  box-shadow: 0 0 5px 5px #888
+}
+.knowledge_2{
+  margin-left: 55px;
+  width: 250px;
+  height: auto;
+  border-radius: 5px;
+  border-width: 2px;
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px#888;
+  box-shadow: 0 0 5px 5px #888
+}
+.knowledge_3{
+  margin-left: 55px;
+  width: 300px;
+  height: auto;
   border-radius: 5px;
   border-width: 2px;
   -moz-box-shadow: 0 0 5px 5px #888;
@@ -589,7 +665,9 @@ ul.Learn{
   [class*="col-9"]{
     float: left;
   }
-
+  [class*="col-6"]{
+    float: left;
+  }
   .col-12{
    float: left;
   }
