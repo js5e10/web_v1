@@ -12,16 +12,20 @@
 }
 
 #header {
-  height: 80px;
+  margin-top: -8px;
   background-color:#262626;
   position: fixed;
   right: 0;
   left: 0;
   z-index: 1;
+  padding-top: -10px;
 }
 
 #wrapper {
-  margin-top: -15px;
+  position: absolute;
+  margin-top: -5px;
+  right: 0;
+  left: 0;
 }
 
 #logo {
@@ -122,12 +126,13 @@
 
 .flow_text_2{
 
-  text-align: left;
+  text-align: center;
   font-size: 2.2vw;
 
 }
 .flow_text_4{
   text-align: center;
+
 }
 
 .flow_text_3{
@@ -144,8 +149,9 @@
   width: 250px;
   height: 250px;
   list-style-type: none;
-  border:5px solid red;
+  border:10px solid #708090;
   border-radius:125px;
+  font-size: 15px;
 
 
 }
@@ -179,13 +185,31 @@
 
 .arrow_center{
   text-align: center;
+
   color: #CD853F;
+}
+
+#us{
+  background-color: #DCDCDC;
+
+
+}
+
+.detail {
+  margin: auto;
+  font-size: 1vw;
+  height: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+
 }
 
 #introduction {
   padding-bottom: 50px;
   background-color: #e7e6e6;
   height: auto;
+
   font-weight:900;
 
 }
@@ -253,7 +277,7 @@ margin-right: auto;
   /*background-color: #E8E6D7;*/
   background-color: #DCDCDC;
   height: auto;
-
+  padding-top: 10px;
 
 
 }
@@ -326,6 +350,8 @@ ul.nav-guide{
 }*/
 
 .knowledge{
+  margin-left: 50px;
+  height: auto;
   border-radius: 5px;
   border-width: 2px;
   -moz-box-shadow: 0 0 5px 5px #888;
@@ -343,7 +369,7 @@ ul.nav-guide{
   box-shadow: 0 0 5px 5px #888
 }
 .knowledge_3{
-  margin-left: 55px;
+  margin-left: 25px;
   width: 300px;
   height: auto;
   border-radius: 5px;
@@ -513,7 +539,7 @@ ul.nav-guide{
 .social i {
   color: #F07818;
   font-size: 150%;
-  padding-top: 20px;
+  padding-top: 17px;
 }
 
 .social i:hover {
@@ -525,8 +551,8 @@ ul.nav-guide{
 .text {
   margin-bottom: -10px;
   text-align: center;
-  font-size: 25px;
-
+  font-size: 2vw;
+  margin-left: 10px;
   font-family: fantasy;
   color: #66a992;
 }
@@ -538,6 +564,8 @@ ul.nav-guide{
 .license{
   color:#999999;
   font-family:fantasy;
+  font-size: 1vw;
+
 }
 
 
@@ -746,6 +774,16 @@ ul.Learn{
 
   }
 
+  .detail{
+    margin: auto;
+    font-size: 2vw;
+    height: auto;
+    padding-left: 125px;
+    padding-right: 125px;
+    text-align: center;
+
+  }
+
 }
 
 @media screen and (max-width: 1122px) {
@@ -835,7 +873,11 @@ ul.Learn{
     margin: auto;
     width: 30%;
     height: auto;
-    margin-left:350px;
+
+
+  }
+  .knowledge_2{
+    margin: auto;
 
   }
 /*
@@ -861,4 +903,6 @@ ul.Learn{
     padding-bottom: 60px;
     padding-top: 40px;
   }
+
+
 }
