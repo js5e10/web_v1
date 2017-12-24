@@ -85,8 +85,9 @@
 
 .flow{
   background-color: white;
-  padding-top: 70px;
+  margin-top: -100px;
   padding-right: 40px;
+  margin-left: -270px;
 }
 
 .flow_steps li{
@@ -120,8 +121,9 @@
 
 .flow_text_1{
   text-align: left;
-  font-size: 1.5vw;
+  font-size: 20px;;
   font-weight: bold;
+  color: #3A3C47;
 
 }
 
@@ -137,18 +139,21 @@
 }
 .flow_text_5{
   text-align: left;
+  float: right;
+  padding-left: 60px;
 
 }
 .flow_text_5 li{
   list-style-type: none;
   font-size: 20px;
+  font-weight: bold;
 
 }
 .flow_text_6{
   text-align: left;
-  padding-left: 100px;
+  padding-left: 0px;
   color: white;
-  margin-left: 150px;
+  margin-left: 0px;
 
 ;
 }
@@ -169,10 +174,20 @@
   color: #3A3C47;
 }
 .mind_map{
-  padding-left: 40px;
-  text-align: left;
+  margin: auto;
+  padding-left: 100px;
+  text-align: center;
   font-size: 35px;
 
+}
+.center_mindmap {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-left:40px;
+}
+.subheader{
+  color: #3A3C47
 }
 
 .flow_text_3{
@@ -180,17 +195,18 @@
   text-align: justify;
   font-size: 20px;
   color:#3A3C47;
+  font-weight: bold;
 
 }
 .flow_text_3 li{
-  text-align: left;
+  text-align: justify;
   padding-top: 30px;
   list-style-type: none;
 }
 
 .high_light_demo{
 
-  padding-left: 70px;
+  padding-left: 170px;
   margin: auto;
   padding-top: 10px;
   width: 100%;
@@ -198,7 +214,8 @@
 }
 
 .high_light_save{
-  width: 600px;
+
+  max-width: 100%;
   height: auto;
   border-width: 10px;
   border-radius: 5px;
@@ -215,9 +232,15 @@
 
 
 }
+.download_jumb{
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
 .mind_map_img{
   margin: auto;
-  width: 550px;
+  width: 60%;
   height: auto;
   margin-left: 260px;
   border-width: 10px;
@@ -247,15 +270,27 @@
 
 .subheader{
   text-align: center;
-  font-size: 2.5vw;
-
+  padding-bottom:50px;
+  padding-top: 30px;
   font-weight: bold;
 }
 .subheader_2{
-  text-align: justify;
-  padding-left: 100px;
+
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 50px;
   background-color: #DCDCDC;
   color: #3A3C47;
+  font-weight: bold;
+}
+.subheader_2_sub{
+
+  text-align: center;
+  padding-left: 135px;
+  padding-right: 50px;
+  background-color: #DCDCDC;
+  color: #3A3C47;
+  font-weight: bold;
 }
 .subheader_3{
   text-align: center;
@@ -280,7 +315,8 @@
 
 #us{
   background-color: #DCDCDC;
-
+  margin-top: -50px;
+padding-bottom: 20px;
 
 }
 
@@ -291,7 +327,7 @@
   padding-left: 150px;
   padding-right: 150px;
   text-align:justify;
-
+  color:#3A3C47
 }
 
 #introduction {
@@ -358,7 +394,15 @@ margin-right: auto;
 }
 
 #our_product{
+  padding-top: 25px;
   background-color: white;
+}
+
+.aim{
+  text-align: center;
+  padding-bottom: 120px;
+  padding-top: 30px;
+  color: #3A3C47;
 }
 
 #our_product::after{
@@ -392,9 +436,9 @@ margin-right: auto;
   height: auto;
 }
 #section_5 {
-  margin-top: 0px;
+
   padding-top:10px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   /*background-color: #E8E6D7;*/
   background-color:#77798F;
   height: auto;
@@ -460,8 +504,10 @@ ul.nav-guide{
 }*/
 
 .knowledge{
-  margin-left: 50px;
+  max-width: 50%;
   height: auto;
+  margin-left: 50px;
+
   border-radius: 5px;
   border-width: 2px;
   -moz-box-shadow: 0 0 5px 5px #888;
@@ -599,7 +645,7 @@ ul.nav-guide{
 .footer {
 
   width: 100%;
-  height:300px;
+  height:auto;
   background-color: #262626;
 
 
@@ -767,14 +813,15 @@ ul.Learn{
 }
 
 .regist{
-  background-color: #556262;
+  background-color: #DCDCDC;
   width: 100%;
   height: auto;
+
 
 }
 
 .regist_form{
-  background-color: #262626;
+  background-color: #DCDCDC;
   padding-top: 100px;
   padding-bottom: 200px;
   text-align: center;
@@ -810,10 +857,10 @@ ul.Learn{
   color: white;
 }
 .download_form{
-  padding-top: 100px;
+
   text-align: center;
-  height: 35px;
-  background-color: #262626;
+  padding-top: 50px;
+  background-color: #DCDCDC;
   color:#3A3C47;
 }
 
@@ -838,7 +885,7 @@ ul.Learn{
 .download_submit:hover{
   border-radius: 5px;
   border-width: 0px;
-  
+
   -moz-box-shadow: 0 0 5px 5px black;
   -webkit-box-shadow: 0 0 5px 5px black;
   box-shadow: 8px 8px 8px black;
@@ -1000,7 +1047,8 @@ ul.Learn{
 
   .detail{
     margin: auto;
-    font-size: 2vw;
+    font-size: 20px;
+    font-weight:bold;
     height: auto;
     padding-left: 125px;
     padding-right: 125px;
@@ -1016,7 +1064,7 @@ ul.Learn{
   }
   .flow_text_1{
     text-align: center;
-    font-size: 2.2vw;
+    font-size: 20px;
     font-weight: bold;
   }
   #logo-guide ul.nav-guide {
@@ -1093,10 +1141,16 @@ ul.Learn{
     transition: color linear 0.15s;
 
   }
+  .aim{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 0px;
+  }
   .knowledge{
     margin: auto;
-    width: 30%;
+    width: 37%;
     height: auto;
+
 
 
   }
@@ -1105,11 +1159,24 @@ ul.Learn{
 
   }
 
+
   .subheader_2{
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
 
+    background-color: #DCDCDC;
+    color: #3A3C47;
+    font-size: 20;
+    font-weight: bold;
+
+  }
+  .subheader_2_sub{
+    text-align: center;
+    padding-left: 45px;
+    padding-right: 30px;
+    font-size: 20;
+    font-weight: bold;
     background-color: #DCDCDC;
     color: #3A3C47;
   }
@@ -1118,9 +1185,14 @@ ul.Learn{
     padding-left:50px;
     padding-right:50px;
 
-    font-size: 20px;
+    font-size: -20px;
+
     color:#3A3C47;
 
+  }
+  .subheader{
+    margin-top:30px;
+    margin-bottom: -30px;
   }
 
 /*
@@ -1143,8 +1215,10 @@ ul.Learn{
     text-align: center;
   }
   .flow{
-    padding-bottom: 60px;
+    margin-top: 50px;
+    padding-bottom: 160px;
     padding-top: 40px;
+    margin-left: 0px;
   }
   .text {
     margin-bottom: -10px;
@@ -1161,7 +1235,7 @@ ul.Learn{
   }
   .high_light{
     text-align: left;
-    padding-left: 50px;
+    padding-left: 0px;
     padding-top: 50px;
 
   }
@@ -1170,18 +1244,39 @@ ul.Learn{
     list-style-type: none;
     float: left;
     color: #3A3C47;
+    font-size: 20px;
+    font-weight: bold;
   }
 
+
+  .high_light{
+    text-align: center;
+  }
+
+  .center {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+  }
+  .center_mindmap {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+  }
 
   .high_light_save{
 
     margin-left: auto;
-    width: 600px;
+    max-width: 80%;
     height: auto;
     border-width: 10px;
     border-radius: 5px;
     border-color: black;
     border-style: solid;
+    margin-top: 80px;
+    margin-left: 50px;
 
 
   }
@@ -1202,23 +1297,32 @@ ul.Learn{
 
   .mind_map{
 
-    text-align: left;
-    padding-left: 50px;
+    text-align: center;
+    padding-left: 80px;
     padding-top: 50px;
 
 
   }
+  .center_mindmap {
+
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+  }
   .mind_map_img{
-    margin: auto;
-    width: 75%;
+
+    max-width: 45%;
     height: auto;
-    margin-left: 110px;
+    margin-left: 0px;
+
     border-width: 10px;
     border-radius: 5px;
     border-color: black;
     border-style: solid;
 
   }
+
 
   .mind_map_demo{
     padding-top: 49px;
@@ -1230,10 +1334,7 @@ ul.Learn{
   }
 
 
-  #section_5{
-    padding-top: 80px;
-    height: auto;
-  }
+
   .match_1{
     padding-bottom: 50px;
     padding-top: 0px;
